@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regressionn" duration-ms="6298" started-at="2020-04-27T12:57:26Z" finished-at="2020-04-27T12:57:32Z">
+    <groups>
+    </groups>
+    <test name="Prova Sicredi API" duration-ms="6298" started-at="2020-04-27T12:57:26Z" finished-at="2020-04-27T12:57:32Z">
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase">
+        <test-method status="PASS" signature="ConsultaCEPInvalido()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase@31ef45e3]" name="ConsultaCEPInvalido" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultaCEPInvalido -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase@31ef45e3]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase@31ef45e3]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase@3abbfa04]" name="setUp" is-config="true" duration-ms="23" started-at="2020-04-27T09:57:26Z" finished-at="2020-04-27T09:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testaCEPvalido()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase@3abbfa04]" name="testaCEPvalido" duration-ms="5562" started-at="2020-04-27T09:57:26Z" finished-at="2020-04-27T09:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaCEPvalido -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase@3abbfa04]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:31Z" finished-at="2020-04-27T09:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase">
+        <test-method status="PASS" signature="RetornaInformacoesDaAPI()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase@598067a5]" name="RetornaInformacoesDaAPI" duration-ms="350" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetornaInformacoesDaAPI -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase@598067a5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase@598067a5]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase">
+        <test-method status="PASS" signature="ConsultaCEPInexistente()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase@57fffcd7]" name="ConsultaCEPInexistente" duration-ms="328" started-at="2020-04-27T09:57:31Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultaCEPInexistente -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase@57fffcd7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:31Z" finished-at="2020-04-27T09:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase@57fffcd7]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-27T09:57:32Z" finished-at="2020-04-27T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase -->
+    </test> <!-- Prova Sicredi API -->
+  </suite> <!-- regressionn -->
+</testng-results>

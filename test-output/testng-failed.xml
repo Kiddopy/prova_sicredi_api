@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [regressionn]">
+  <listeners>
+    <listener class-name="org.dbserver.sicredi.provaSicrediAPI.base.TestListener"/>
+  </listeners>
+  <test name="API TestCases(failed)">
+    <classes>
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="ConsultaCEPInvalido"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase -->
+      <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase -->
+    </classes>
+  </test> <!-- API TestCases(failed) -->
+</suite> <!-- Failed suite [regressionn] -->

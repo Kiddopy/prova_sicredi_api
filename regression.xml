@@ -1,0 +1,16 @@
+<!DOCTYPE suite>
+
+<suite name="regressionn" verbose="2" >
+	<listeners>
+		<listener class-name="org.dbserver.sicredi.provaSicrediAPI.base.TestListener" />
+	</listeners>
+	
+    <test name="Prova Sicredi API" >
+        <classes>
+            <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPValidoTestCase" />
+            <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInexistenteTestCase" />
+            <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.ConsultaCEPInvalidoTestCase" />
+            <class name="org.dbserver.sicredi.provaSicrediAPI.testCases.EXTRATestCase" />
+        </classes>
+    </test>
+</suite>
